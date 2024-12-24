@@ -1,6 +1,6 @@
-# this highlights requests with Sec-Fetch-Mode headers when the value is navigate
-# helps organize the flow of top-level navigations and stuff
-# makes cspt testing easier
+// this highlights requests with Sec-Fetch-Mode headers when the value is navigate
+// helps organize the flow of top-level navigations and stuff
+// makes cspt testing easier
 
 var mimeType = requestResponse.mimeType();
 if (requestResponse.contains("Sec-Fetch-Mode: navigate", false))
